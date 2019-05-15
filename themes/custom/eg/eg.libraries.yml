@@ -1,8 +1,9 @@
 eg-css:
   version: 1.0
-    css:
-      base:
-        css/base/style.css {}
+  css:
+    base:
+    css/base/styles.css: {}
+
 quicksand:
   license:
     name: SIL Open Font License 1.1

@@ -9,3 +9,15 @@ libraries:
   - eg/eg-css
   - eg/quicksand
   - core/normalize
+
+regions:
+  header: header
+  highlighted: Highlighted
+  help: help
+  content: Content
+  sidebar_first: Left Sidebar
+  sidebar_second: Right sidebar
+  front: Front Page blocks
+  footer: footer
+  page_top: Page page_top
+  page_bottom: Page bottom 
