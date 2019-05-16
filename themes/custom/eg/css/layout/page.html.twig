@@ -48,6 +48,8 @@
     {{ page.header }}
   </header>
 
+  {{ page.primary_menu }}
+  {{ page.secondary_menu }}
 
   {{ page.breadcrumb }}
 
@@ -72,12 +74,6 @@
       <aside class="layout-sidebar-second" role="complementary">
         {{ page.sidebar_second }}
       </aside>
-    {% endif %}
-
-    {% if page.front %}
-      <div class="front" class="content">
-        {{ page.front }}
-      </div>
     {% endif %}
 
   </main>
